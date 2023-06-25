@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar,
+.closeSidbar {
+  background: #ebeff5;
+  height: calc(100vh - 5em);
+  padding-right: 3em;
+}
+.TitleSidebar {
+  color: #7f8fa6;
+  margin-top: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.active {
+  background-color: #dde5ec;
+  border-radius: 1em;
+}
+
+.ListSidebar {
+  display: flex;
+  align-items: center;
+  padding: 0.3em 0;
+  margin-bottom: 0.1em;
+  cursor: pointer;
+  color: #424957;
+}
+
+.ListSidebar span {
+  margin-right: 1em;
+}
+
+.ListSidebar:hover {
+  background-color: #dde5ec;
+  border-radius: 1em;
+}
+
+.Icons {
+  position: relative;
+}
+
+.arrowclosOropen {
+  color: darkblue;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none;
+}

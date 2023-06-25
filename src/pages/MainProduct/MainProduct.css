@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.product .productTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 1em;
+  background-color: inherit;
+}
+
+.product .productTopbar .productTitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+}
+
+.product .productTopbar .createProduct .createBtn {
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background-color: rgb(25, 159, 114);
+  color: #fff;
+}
+
+.product .ChartInfo {
+  display: flex;
+  align-items: center;
+  max-height: 16em;
+}
+
+.product .ChartInfo .ProductInfo {
+  width: 48%;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  margin-left: 2em;
+  border-radius: 1em;
+  height: 15.8em;
+}
+
+.product .ChartInfo .ProductInfo .InfoImg {
+  width: 2.5em;
+  height: 2.5em;
+  border: none;
+}
+
+.ProductInfo .InfoTitleImg {
+  display: flex;
+  align-items: center;
+}
+
+.ProductInfo .InfoTitleImg .InfoTitle {
+  margin-right: 2em;
+  font-weight: bold;
+}
+
+.product .ChartInfo .ProductInfo .Info {
+  margin: .5em 0;
+  width: 50%;
+}
+.product .ChartInfo .ProductInfo .Info div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+
+.product .ChartInfo .ProductInfo .Info div span:first-child {
+  font-weight: bold;
+}
+
+.product .ChartInfo .ProductInfo .Info div span:last-child {
+  color: rgb(125, 125, 125);
+}
+
+.product .ChartInfo .ProductChart{
+
+  height: 15.8em;
+  
+}
+.ProductEdit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 2em;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 1em;
+}
+
+.ProductEditLeft {
+  padding: 2em;
+  color: rgb(125, 125, 125);
+}
+
+.ProductEditLeft .Bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductEditLeft .Bottom > select {
+  font-size: 0.8em;
+  padding: 0 1em;
+  width: 15em;
+  margin: 0.7em 0;
+}
+
+.ProductEditRight {
+  padding: 2em;
+}
+.ProductEditRight .Top {
+  margin: 1em;
+}
+.ProductEditRight .Top .EditImg {
+  width: 6em;
+  height: 6em;
+  margin-left: 2.5em;
+}
+
+.ProductEditRight .BtnEdit {
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  width: 100%;
+  border-radius: .4em;
+  margin-top: 2em;
+  padding: .5em 0;
+  font-size: .8em;
+}

@@ -1,0 +1,43 @@
+* {
+  font-family: "vazir", "sans-serif";
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.TapbarComponent {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.ContentComponents {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  position: sticky;
+  top: 5em;
+  z-index: 999;
+}
+.closeSidbar {
+  position: sticky;
+  top: 5em;
+  z-index: 999;
+}
+
+.content {
+  flex: 6;
+}

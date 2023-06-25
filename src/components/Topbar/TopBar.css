@@ -1,0 +1,66 @@
+.topbar {
+  width: 100%;
+  height: 5em;
+  background-color: #f5f6fa;
+}
+
+.WrapperTopbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopbarRight {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-evenly;
+  font-size: 2.2em;
+  color: darkblue;
+  padding: 0 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.TopbarLeft {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em;
+}
+
+.topbarImg {
+  width: 3.5em;
+  height: 3.5em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ListGroupIcon {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.settingIcon,
+.NotficationIcon,
+.LanguageIcon {
+  padding: 0.5em;
+  cursor: pointer;
+  position: relative;
+}
+
+.NotficationIcon span,
+.LanguageIcon span {
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.1em 0.6em;
+  font-size: 0.6em;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}

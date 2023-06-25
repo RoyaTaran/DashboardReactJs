@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.widgetlgTable {
+    flex: 3;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 2em 0 1em;
+}
+
+.table {
+  width: 100%;
+}
+.thead {
+  text-align: right;
+}
+
+.widgetTh {
+  padding: 0 1em 1em 0;
+}
+
+.widgettd {
+  font-size: 0.8em;
+  color: rgb(79, 79, 79);
+}
+
+.widgetPrice span {
+  margin: 0 0.5em;
+}
+
+.userAndImg {
+  display: flex;
+  align-items: center;
+}
+
+.userAndImg img {
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1em;
+  padding: 0.8em;
+}
+
+.widgetApproved {
+  color: #2ed573;
+  background-color: #e0f4e7;
+  border-radius: 40%;
+  text-align: center;
+  padding: 0.4em 0;
+  width: 77%;
+  cursor: pointer;
+}
+
+.widgetPending {
+  color:#34ace0;
+  background-color: #dbe8ea;
+  border-radius: 40%;
+  text-align: center;
+  padding: 0.4em 0;
+  width: 77%;
+  cursor: pointer;
+}
+
+.widgetDeclined {
+  color: #ef5777;
+  background-color: #f4eaed;
+  border-radius: 40%;
+  text-align: center;
+  padding: 0.4em 0;
+  width: 77%;
+  cursor: pointer;
+}
